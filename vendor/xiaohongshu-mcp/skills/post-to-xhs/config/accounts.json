@@ -1,0 +1,5 @@
+{
+  "_comment": "Modified by xhs-toolkit on 2026-11-01: removed the upstream local account path; the account manager creates a profile for the current user when needed.",
+  "default_account": "default",
+  "accounts": {}
+}

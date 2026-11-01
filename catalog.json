@@ -1,0 +1,51 @@
+{
+  "name": "xhs-toolkit",
+  "imported_on": "2026-11-01",
+  "components": [
+    {
+      "id": "agent-reach",
+      "title": "跨平台素材研究",
+      "path": "vendor/Agent-Reach",
+      "upstream": "https://github.com/Panniantong/Agent-Reach",
+      "branch": "main",
+      "kind": "python-cli",
+      "license": "MIT"
+    },
+    {
+      "id": "baoyu-xhs-images",
+      "title": "图文分镜与图片生成",
+      "path": "vendor/baoyu-xhs-images",
+      "upstream": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
+      "branch": "main",
+      "kind": "skill",
+      "license": "MIT"
+    },
+    {
+      "id": "guizang-social-card-skill",
+      "title": "社交卡片排版",
+      "path": "vendor/guizang-social-card-skill",
+      "upstream": "https://github.com/op7418/guizang-social-card-skill",
+      "branch": "main",
+      "kind": "skill-and-renderer",
+      "license": "See LICENSE and COMMERCIAL_LICENSING.md"
+    },
+    {
+      "id": "xiaohongshu-mcp",
+      "title": "小红书 MCP 服务",
+      "path": "vendor/xiaohongshu-mcp",
+      "upstream": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "branch": "main",
+      "kind": "go-mcp-server",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "xiaohongshu-ops",
+      "title": "账号运营与复盘",
+      "path": "vendor/xiaohongshu-ops-skill",
+      "upstream": "https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill",
+      "branch": "main",
+      "kind": "openclaw-skill",
+      "license": "No standalone upstream license file; owner reports permission"
+    }
+  ]
+}
